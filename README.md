@@ -38,20 +38,24 @@ A Gradio-powered web app that answers questions about YouTube videos using their
 ```bash
 git clone https://github.com/yourusername/youtube-video-ai-assistant.git
 cd youtube-video-ai-assistant
+```
 
-## Install Dependencies
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
 
-## Environment Variables
-### Create a .env file in the root directory of the project and add your Google API key:
+### Environment Variables
+#### Create a .env file in the root directory of the project and add your Google API key:
 ```env
 API_Key=your_google_api_key_here
+```
 
 ## 🛠️ Usage
 ### Running the Web Application:
 ```bash
 python app.py
+```
 This will start the Gradio web application. You can access it in your browser at the URL provided in the terminal.
 ### Using the Web Interface
 - Enter the YouTube video URL.
