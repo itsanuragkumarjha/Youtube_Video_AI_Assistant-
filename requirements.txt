@@ -1,0 +1,6 @@
+gradio==4.8.0
+langchain
+langchain_community
+faiss-cpu
+langchain_google_genai
+youtube_transcript_api
